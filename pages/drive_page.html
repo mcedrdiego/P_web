@@ -1,0 +1,99 @@
+
+<!--
+iyi ni page yimbere nahagira ugire indi idee yikintu nahindura yambwira nkahindura ntago irangiye ndacyari kuyitekereza
+ho kuirango iryohe kurusha , izindi pages ndi kuzi designinga mumutwe 
+
+
+ikindi kintu harigihe wayifungura ukabona ibintu biri bizar ukuntu , umva nkibwire kuma icons nakoresheje cdn kuko ntago
+nari ku downloadinga icons zose nabonye biramvuba , uraza kubona muri links ko harimo link kuri font no kuri materialize 
+mugihe wayifunguye nta internet ufite uzajya ubonamo ibigambo aho kugira haze ama icons yo nashyizeho.
+
+tukiri aho font nzazihindura ntaribi.
+
+ok good Luck
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <!--Import index.css--> 
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/drive.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+      <!--aho ni ho nav bar itangiriye -->
+      <div class="navbar-fixed blue darkern-2">
+            <nav class="blue darkern-2">
+                    <div class="nav-wrapper blue darkern-2">
+                        <!--akantu kaka logo yaba aka plp cg akandi -->
+                        <a href="#" class="brand-logo center"><img src="../images/UKSG-cmyk-logo.png" alt="logo image" width="100em"></a>
+                        <!--link ituma haza collapseble button ya side menu kubera telephone -->
+                            <a href="#" data-activates="mobile-demo" class="button-collapse" id="btncollapse">
+                                &#9776;
+                            </a>
+                        <!--menu isanzwe yo muri nav bar iri iburyo -->
+                            <ul class="right hide-on-med-and-down transparent">
+                                    <li><a href="#" class="link">HOME</a></li>
+                                    <li><a href="#" class="link">DRIVE</a></li>
+                                    <li><a href="#" class="link">SOCIAL MEDIA</a></li>
+                                    <li><a href="#" class="link">ABOUT US</a></li>
+                            </ul>
+                        <!--menu yama telephone -->
+                            <ul class="side-nav" id="mobile-demo">
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">DRIVE</a></li>
+                                    <li><a href="#">SOCIAL MEDIA</a></li>
+                                    <li><a href="#">ABOUT US</a></li>
+                                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                            </ul>
+                </div>
+          </nav>
+      </div>
+      <!--aho ni ho nav bar irangiriye -->
+      <!-- aho ibiri muri page (content ) bitangiriye -->
+      <div class="row">
+          <!-- profile yumuntu -->
+          <div class="col s12 m3 l3">
+              <div class="card-panel blue">
+                  <img class="responsive-img circle" src="../profile-img/alain23.jpg" width="100px">
+                  <div class="divider white"></div>
+                  <span>
+                      Pellentesque habitant morbi tristique senectus et netus 
+                                  et malesuada fames ac turpis 
+                                  egestas.Duis autem vel eum iriure dolor in hendre
+                                  rit in vulputate velit esse
+                  </span>
+                  <div>
+                      
+                  </div>
+              </div>
+          </div>
+          <!-- data zigomba kuba published -->
+          <div class="col s12 m6 l6">
+          </div>
+          <!-- ama publicite yabantu na recent data zarebwe cyane zikazajya zi poppinga up -->
+          <div class="col s12 m2 l2">
+          </div>
+      </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+            //iyi fonction niya button za telephone
+            $(".button-collapse").sideNav();
+        });
+      </script>
+</body>
+</html>
+
